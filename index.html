@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ingreso de Datos</h1>
+        <form id="form">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" required>
+
+            <label for="fechaCumple">Fecha en que cumplió 60 años:</label>
+            <input type="date" id="fechaCumple" required>
+
+            <label for="sueldo">Sueldo Base (en quetzales):</label>
+            <input type="number" id="sueldo" required>
+
+            <label for="contribuciones">Número de Contribuciones:</label>
+            <input type="number" id="contribuciones" required>
+
+            <button type="button" onclick="enviarDatos()">Calcular Jubilación</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
